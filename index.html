@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Sissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.webp" type="image/png">
+</head>
+<body>
+    <header>
+        <h1 class="heading">
+            Stone Paper Sissor
+        </h1>
+    </header>
+
+    <main>
+        <!-- Choices -->
+        <div class="choices">
+            <div class="choice" id="stone">
+                <img src="images/rock.png" alt="">
+            </div>
+            <div class="choice" id="paper">
+                <img src="images/paper.png" alt="">
+            </div>
+            <div class="choice" id="sissor">
+                <img src="images/Sissor.webp" alt="">
+            </div>
+        </div>
+        <div class="btn-sec">
+            <button id="reset-btn">Reset</button>
+        </div>
+        <!-- Score board -->
+        <div class="score-board">
+            <div class="player" id="user">
+                <p class="score" id="user-score">0</p>
+                <p>User</p>
+            </div>
+            <div class="player" id="user">
+                <p class="score" id="bot-score">0</p>
+                <p>Bot</p>
+            </div>
+        </div>
+        <!-- Message section -->
+        <div class="msg-container">
+            <p id="msg">Play Your Move</p>
+        </div>
+        <div class="won">
+            <p id="won"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

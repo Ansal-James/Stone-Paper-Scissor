@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: black;
+    height: 5rem;
+    text-align: center;
+}
+.heading{
+    color: #fff;
+    line-height: 5rem;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.choice img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choice:hover{
+    background-color: rgba(0, 0, 0, 0.962);
+   
+}
+.score-board{
+    background-color: rgb(175, 175, 175);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    padding: 10px 0;
+}
+.player{
+    font-size: 25px;
+    text-align: center;
+    margin: 0 30px;
+    font-weight: bolder;
+   
+}
+.score{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.msg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#msg{
+    background-color: rgb(41, 80, 82);
+    color: #fff;
+    padding: 20px 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+.won{
+    color: green;
+    margin: 10px;
+    text-align: center;
+
+}
+#won{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.btn-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#reset-btn{
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color: rgb(27, 181, 0);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+}
